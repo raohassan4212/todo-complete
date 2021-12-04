@@ -1,0 +1,71 @@
+.main-todo-div {
+  border: 1px solid;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px 25px;
+}
+
+.task-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 8px gray;
+  padding: 0 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.btn {
+  border-style: none;
+  padding: 5px 8px;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.mr {
+  margin-right: 3px;
+  background-color: blue;
+  color: white;
+}
+
+.ml {
+  margin-left: 3px;
+  background-color: red;
+  color: white;
+}
+
+.todo-head {
+  font-size: 26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex-todo {
+  display: inline-block;
+}
+
+.all {
+  margin-left: 3px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  padding: 5px 8px;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.add {
+  border-style: none;
+  padding: 5px 8px;
+  font-size: 17px;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 3px;
+  background-color: green;
+  color: white;
+}
+
+.distance {
+  position: relative;
+  left: 130px;
+}
+
